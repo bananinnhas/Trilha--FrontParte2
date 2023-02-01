@@ -1,29 +1,124 @@
 
 
 *{
-   
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .navbar{
+    
     display:flex;
     justify-content: space-around;
+    margin:10px;
+    color:#2e318f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    
+    
 
 }
 
+.navbar:hover{
+    color: #41adad;
+}
+
 .infoevent{
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/IMG/lol1.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/IMG/valo.jpg");
     background-position: center;
     background-size: cover;
     height: 85vh;
     display:flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
 }
 
+
+
 .disclaimer{
-    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#41adad;
+    font-size: 2em;
+    margin-bottom: 1em;
+    
+
+}
+
+.event-description{
+    color: white;
+    font-size: 0.5em;
+ 
+}
+
+.event-date{
+    font-family: fantasy;
+    color:#2e318f;
+    font-size: 2em;
+}
+
+.subscription-forms{
+    background-color: rgb(255, 255, 255);
+    padding:  30px 30px;
+    width: 25vw;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px  rgb(5, 5, 5);
+}
+
+.formtext{
+    font-family: fantasy;
+    font-size: 2em;
+    color: #2e318f;
     margin-bottom: 1em;
 }
+
+.form-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+.form-group label{
+    color: #2D102D;
+    margin-bottom: .3em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.jogoop{
+    color: #2D102D;
+    margin-bottom: .3em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-group input,
+.form-group select{
+    padding: 6px 8px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 4px;
+    border:none;
+    outline:none;
+    
+}
+
+.btn{
+    background-color: #41adad;
+    color:aliceblue;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 12px;
+    border:none;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0px 1px 4px;
+    opacity: .8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
