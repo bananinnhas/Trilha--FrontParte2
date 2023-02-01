@@ -1,0 +1,29 @@
+
+
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.infoevent{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/IMG/lol1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.disclaimer{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
